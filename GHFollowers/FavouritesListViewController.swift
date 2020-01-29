@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FavouritesListViewController.swift
 //  GHFollowers
 //
 //  Created by Gyorgy Borz on 2020. 01. 29..
@@ -8,14 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FavouritesListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemPink
+
+        view.backgroundColor = .systemBlue
     }
 
-
 }
-
