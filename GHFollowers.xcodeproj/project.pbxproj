@@ -15,6 +15,8 @@
 		E7A81F1F23E1FD780083BE73 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F1E23E1FD780083BE73 /* User.swift */; };
 		E7A81F2223E2018B0083BE73 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F2123E2018B0083BE73 /* NetworkManager.swift */; };
 		E7A81F2523E20D0B0083BE73 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F2423E20D0B0083BE73 /* ErrorMessage.swift */; };
+		E7A81F2823E218170083BE73 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F2723E218170083BE73 /* FollowerCell.swift */; };
+		E7A81F2A23E2188A0083BE73 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F2923E2188A0083BE73 /* GFAvatarImageView.swift */; };
 		E7ECE08E23E180EC007E145A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE08D23E180EC007E145A /* AppDelegate.swift */; };
 		E7ECE09023E180EC007E145A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE08F23E180EC007E145A /* SceneDelegate.swift */; };
 		E7ECE09723E180F6007E145A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ECE09623E180F6007E145A /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 		E7A81F1E23E1FD780083BE73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E7A81F2123E2018B0083BE73 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E7A81F2423E20D0B0083BE73 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		E7A81F2723E218170083BE73 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		E7A81F2923E2188A0083BE73 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		E7ECE08A23E180EC007E145A /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ECE08D23E180EC007E145A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7ECE08F23E180EC007E145A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,11 +76,13 @@
 		E79D66A623E1C21200C8110A /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				E7A81F2623E217F50083BE73 /* Cells */,
 				E79D66A123E1ABDF00C8110A /* GFAlertViewController.swift */,
 				E7ECE0A523E1944A007E145A /* GFButton.swift */,
 				E7ECE0A723E197B7007E145A /* GFTextField.swift */,
 				E79D669D23E1A9D700C8110A /* GFTitleLabel.swift */,
 				E79D669F23E1AB2900C8110A /* GFBodyLabel.swift */,
+				E7A81F2923E2188A0083BE73 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				E7A81F2423E20D0B0083BE73 /* ErrorMessage.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E7A81F2623E217F50083BE73 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E7A81F2723E218170083BE73 /* FollowerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		E7ECE08123E180EC007E145A = {
@@ -231,8 +245,10 @@
 				E7ECE0A823E197B7007E145A /* GFTextField.swift in Sources */,
 				E7ECE0A423E18B2C007E145A /* FavouritesListViewController.swift in Sources */,
 				E79D66A423E1BAFD00C8110A /* UIViewController+Ext.swift in Sources */,
+				E7A81F2A23E2188A0083BE73 /* GFAvatarImageView.swift in Sources */,
 				E7ECE0A623E1944A007E145A /* GFButton.swift in Sources */,
 				E7ECE0AA23E1A2A0007E145A /* FollowerListViewController.swift in Sources */,
+				E7A81F2823E218170083BE73 /* FollowerCell.swift in Sources */,
 				E7A81F2523E20D0B0083BE73 /* ErrorMessage.swift in Sources */,
 				E79D66A023E1AB2900C8110A /* GFBodyLabel.swift in Sources */,
 				E7A81F1D23E1FCBA0083BE73 /* Follower.swift in Sources */,
