@@ -13,6 +13,8 @@
 		E79D66A423E1BAFD00C8110A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D66A323E1BAFD00C8110A /* UIViewController+Ext.swift */; };
 		E7A81F1D23E1FCBA0083BE73 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F1C23E1FCBA0083BE73 /* Follower.swift */; };
 		E7A81F1F23E1FD780083BE73 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F1E23E1FD780083BE73 /* User.swift */; };
+		E7A81F2223E2018B0083BE73 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F2123E2018B0083BE73 /* NetworkManager.swift */; };
+		E7A81F2523E20D0B0083BE73 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F2423E20D0B0083BE73 /* ErrorMessage.swift */; };
 		E7ECE08E23E180EC007E145A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE08D23E180EC007E145A /* AppDelegate.swift */; };
 		E7ECE09023E180EC007E145A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE08F23E180EC007E145A /* SceneDelegate.swift */; };
 		E7ECE09723E180F6007E145A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ECE09623E180F6007E145A /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		E79D66A323E1BAFD00C8110A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		E7A81F1C23E1FCBA0083BE73 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		E7A81F1E23E1FD780083BE73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E7A81F2123E2018B0083BE73 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E7A81F2423E20D0B0083BE73 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		E7ECE08A23E180EC007E145A /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ECE08D23E180EC007E145A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7ECE08F23E180EC007E145A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E7A81F2023E201720083BE73 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E7A81F2123E2018B0083BE73 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E7A81F2323E20CF60083BE73 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E7A81F2423E20D0B0083BE73 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E7ECE08123E180EC007E145A = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +144,8 @@
 		E7ECE08C23E180EC007E145A /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				E7A81F2323E20CF60083BE73 /* Utilities */,
+				E7A81F2023E201720083BE73 /* Managers */,
 				E7A81F1B23E1FCA50083BE73 /* Model */,
 				E79D66A623E1C21200C8110A /* Custom Views */,
 				E79D66A523E1C1D100C8110A /* Screens */,
@@ -211,9 +233,11 @@
 				E79D66A423E1BAFD00C8110A /* UIViewController+Ext.swift in Sources */,
 				E7ECE0A623E1944A007E145A /* GFButton.swift in Sources */,
 				E7ECE0AA23E1A2A0007E145A /* FollowerListViewController.swift in Sources */,
+				E7A81F2523E20D0B0083BE73 /* ErrorMessage.swift in Sources */,
 				E79D66A023E1AB2900C8110A /* GFBodyLabel.swift in Sources */,
 				E7A81F1D23E1FCBA0083BE73 /* Follower.swift in Sources */,
 				E79D669E23E1A9D700C8110A /* GFTitleLabel.swift in Sources */,
+				E7A81F2223E2018B0083BE73 /* NetworkManager.swift in Sources */,
 				E7ECE0A223E18AEF007E145A /* SearchViewController.swift in Sources */,
 				E7ECE08E23E180EC007E145A /* AppDelegate.swift in Sources */,
 				E7ECE09023E180EC007E145A /* SceneDelegate.swift in Sources */,
