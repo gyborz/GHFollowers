@@ -11,6 +11,8 @@
 		E79D66A023E1AB2900C8110A /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D669F23E1AB2900C8110A /* GFBodyLabel.swift */; };
 		E79D66A223E1ABDF00C8110A /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D66A123E1ABDF00C8110A /* GFAlertViewController.swift */; };
 		E79D66A423E1BAFD00C8110A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D66A323E1BAFD00C8110A /* UIViewController+Ext.swift */; };
+		E7A81F1D23E1FCBA0083BE73 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F1C23E1FCBA0083BE73 /* Follower.swift */; };
+		E7A81F1F23E1FD780083BE73 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A81F1E23E1FD780083BE73 /* User.swift */; };
 		E7ECE08E23E180EC007E145A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE08D23E180EC007E145A /* AppDelegate.swift */; };
 		E7ECE09023E180EC007E145A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE08F23E180EC007E145A /* SceneDelegate.swift */; };
 		E7ECE09723E180F6007E145A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ECE09623E180F6007E145A /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		E79D669F23E1AB2900C8110A /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		E79D66A123E1ABDF00C8110A /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
 		E79D66A323E1BAFD00C8110A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		E7A81F1C23E1FCBA0083BE73 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		E7A81F1E23E1FD780083BE73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E7ECE08A23E180EC007E145A /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ECE08D23E180EC007E145A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7ECE08F23E180EC007E145A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E7A81F1B23E1FCA50083BE73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7A81F1C23E1FCBA0083BE73 /* Follower.swift */,
+				E7A81F1E23E1FD780083BE73 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E7ECE08123E180EC007E145A = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +124,7 @@
 		E7ECE08C23E180EC007E145A /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				E7A81F1B23E1FCA50083BE73 /* Model */,
 				E79D66A623E1C21200C8110A /* Custom Views */,
 				E79D66A523E1C1D100C8110A /* Screens */,
 				E79D66A723E1C25300C8110A /* Extensions */,
@@ -190,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A81F1F23E1FD780083BE73 /* User.swift in Sources */,
 				E79D66A223E1ABDF00C8110A /* GFAlertViewController.swift in Sources */,
 				E7ECE0A823E197B7007E145A /* GFTextField.swift in Sources */,
 				E7ECE0A423E18B2C007E145A /* FavouritesListViewController.swift in Sources */,
@@ -197,6 +212,7 @@
 				E7ECE0A623E1944A007E145A /* GFButton.swift in Sources */,
 				E7ECE0AA23E1A2A0007E145A /* FollowerListViewController.swift in Sources */,
 				E79D66A023E1AB2900C8110A /* GFBodyLabel.swift in Sources */,
+				E7A81F1D23E1FCBA0083BE73 /* Follower.swift in Sources */,
 				E79D669E23E1A9D700C8110A /* GFTitleLabel.swift in Sources */,
 				E7ECE0A223E18AEF007E145A /* SearchViewController.swift in Sources */,
 				E7ECE08E23E180EC007E145A /* AppDelegate.swift in Sources */,
