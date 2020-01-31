@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Gyorgy Borz on 2020. 01. 29..
+//  Created by Gyorgy Borz on 2020. 01. 31..
 //  Copyright © 2020. Gyorgy Borz. All rights reserved.
 //
 
