@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E7360BF723E5D5BE00F7AB04 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7360BF623E5D5BE00F7AB04 /* PersistenceManager.swift */; };
+		E7360BF923E5E19400F7AB04 /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7360BF823E5E19400F7AB04 /* FavouriteCell.swift */; };
 		E75841AC23E571C800694DF1 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75841AB23E571C800694DF1 /* GFUserInfoHeaderVC.swift */; };
 		E75841AE23E573A800694DF1 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75841AD23E573A800694DF1 /* GFSecondaryTitleLabel.swift */; };
 		E75841B023E579EB00694DF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75841AF23E579EB00694DF1 /* Constants.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		E7360BF623E5D5BE00F7AB04 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		E7360BF823E5E19400F7AB04 /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
 		E75841AB23E571C800694DF1 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		E75841AD23E573A800694DF1 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		E75841AF23E579EB00694DF1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				E7A81F2723E218170083BE73 /* FollowerCell.swift */,
+				E7360BF823E5E19400F7AB04 /* FavouriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				E79D669E23E1A9D700C8110A /* GFTitleLabel.swift in Sources */,
 				E75841AE23E573A800694DF1 /* GFSecondaryTitleLabel.swift in Sources */,
 				E7ECA30D23E46382006761F4 /* GFEmptyStateView.swift in Sources */,
+				E7360BF923E5E19400F7AB04 /* FavouriteCell.swift in Sources */,
 				E7A81F2223E2018B0083BE73 /* NetworkManager.swift in Sources */,
 				E7ECE0A223E18AEF007E145A /* SearchViewController.swift in Sources */,
 				E75841B423E5B17D00694DF1 /* GFItemInfoViewController.swift in Sources */,
