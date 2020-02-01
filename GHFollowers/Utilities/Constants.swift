@@ -6,8 +6,12 @@
 //  Copyright © 2020. Gyorgy Borz. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum SFSymbols {
-    static let location = "mappin.and.ellipse"
+    static let location = UIImage(systemName: "mappin.and.ellipse")!
+    static let repos = UIImage(systemName: "folder")!
+    static let gists = UIImage(systemName: "text.alignleft")!
+    static let following = UIImage(systemName: "heart")!
+    static let followers = UIImage(systemName: "person.2")!
 }
