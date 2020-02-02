@@ -41,6 +41,8 @@
 		E7ECE0A623E1944A007E145A /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE0A523E1944A007E145A /* GFButton.swift */; };
 		E7ECE0A823E197B7007E145A /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE0A723E197B7007E145A /* GFTextField.swift */; };
 		E7ECE0AA23E1A2A0007E145A /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE0A923E1A2A0007E145A /* FollowerListViewController.swift */; };
+		E7EEE5ED23E6B57D004D88B6 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEE5EC23E6B57D004D88B6 /* UIView+Ext.swift */; };
+		E7EEE5EF23E6BFA2004D88B6 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEE5EE23E6BFA2004D88B6 /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		E7ECE0A523E1944A007E145A /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		E7ECE0A723E197B7007E145A /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		E7ECE0A923E1A2A0007E145A /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		E7EEE5EC23E6B57D004D88B6 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		E7EEE5EE23E6BFA2004D88B6 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				E79D66A323E1BAFD00C8110A /* UIViewController+Ext.swift */,
+				E7EEE5EC23E6B57D004D88B6 /* UIView+Ext.swift */,
+				E7EEE5EE23E6BFA2004D88B6 /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -350,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7360C0023E6032100F7AB04 /* GFDataLoadingViewController.swift in Sources */,
+				E7EEE5EF23E6BFA2004D88B6 /* UITableView+Ext.swift in Sources */,
 				E7A81F1F23E1FD780083BE73 /* User.swift in Sources */,
 				E79D66A223E1ABDF00C8110A /* GFAlertViewController.swift in Sources */,
 				E7ECE0A823E197B7007E145A /* GFTextField.swift in Sources */,
@@ -372,6 +379,7 @@
 				E79D66A023E1AB2900C8110A /* GFBodyLabel.swift in Sources */,
 				E7A81F1D23E1FCBA0083BE73 /* Follower.swift in Sources */,
 				E79D669E23E1A9D700C8110A /* GFTitleLabel.swift in Sources */,
+				E7EEE5ED23E6B57D004D88B6 /* UIView+Ext.swift in Sources */,
 				E75841AE23E573A800694DF1 /* GFSecondaryTitleLabel.swift in Sources */,
 				E7ECA30D23E46382006761F4 /* GFEmptyStateView.swift in Sources */,
 				E7360BF923E5E19400F7AB04 /* FavouriteCell.swift in Sources */,

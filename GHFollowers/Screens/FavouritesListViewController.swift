@@ -38,6 +38,7 @@ class FavouritesListViewController: GFDataLoadingViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(FavouriteCell.self, forCellReuseIdentifier: FavouriteCell.reuseID)
+        tableView.removeExcessCells()
     }
     
     private func getFavourites() {
@@ -84,8 +85,7 @@ extension FavouritesListViewController: UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         guard editingStyle == .delete else { return }
-        let favourite = favourites[indexPath.row]
-        PersistenceManager.updateWith(favourite: favourite, actionType: .remove) { [weak self] error in
+        PersistenceManager.updateWith(favourite: favourites[indexPath.row], actionType: .remove) { [weak self] error in
             guard let self = self else { return }
             guard let error = error else {
                 self.favourites.remove(at: indexPath.row)
